@@ -3,4 +3,8 @@ os: linux
 files:
   - source: /abc.html
     destination: /var/www/html/
-
+hooks:
+  BeforeInstall:
+   
+  ApplicationStop:
+    
